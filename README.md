@@ -27,6 +27,21 @@ const messages: Message[] = CsvParser.toObject<Message>(
 );
 
 // do something with messages...
+    const messages = CsvParser.toObject<Message>(
+      `name,message\r\nnolleh,"hello, world"\nnolleh,hello2`
+    );
+  console.log({messages});
+```
+
+result is 
+
+```bash
+{
+  messages: [
+    { name: 'nolleh', message: 'hello, world' },
+    { name: 'nolleh', message: 'hello2' }
+  ]
+}
 ```
 
 if input string is malformed csv, then it return empty array.

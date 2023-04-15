@@ -1,6 +1,6 @@
 {
   "name": "@nolleh/simple-csv-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "nolleh <nolleh7707@gmail.com>",
   "license": "MIT",
   "description": "csv string to javascript object",
@@ -11,6 +11,10 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nolleh/simple-csv-parser"
   },
   "scripts": {
     "clean": "rm -rf ./dist",
