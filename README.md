@@ -1,5 +1,5 @@
 [![Coverage Status](https://github.com/nolleh/simple-csv-parser/raw/gh-pages/badges/coverage-jest%20coverage.svg?raw=true)](https://nolleh.github.io/simple-csv-parser/badges/coverage-jest%20coverage.svg?raw=true)
-[![npm version](https://badge.fury.io/js/simple-csv-parser.svg)](https://badge.fury.io/js/simple-csv-parser)
+[![npm version](https://badge.fury.io/js/@nolleh%2Fsimple-csv-parser.svg)](https://badge.fury.io/js/@nolleh%2Fsimple-csv-parser)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
