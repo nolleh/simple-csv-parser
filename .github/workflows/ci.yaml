@@ -15,6 +15,7 @@ jobs:
       - name: Test and Cov
         run: pnpm test:cov
   badge:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: generate badge
