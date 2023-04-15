@@ -1,7 +1,7 @@
 name: ci
 on: [push]
 jobs:
-  test: 
+  ci: 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -14,10 +14,6 @@ jobs:
           pnpm i --no-frozen-lockfile
       - name: Test and Cov
         run: pnpm test:cov
-  badge:
-    needs: test
-    runs-on: ubuntu-latest
-    steps:
       - name: generate badge
         uses: jpb06/jest-badges-action@latest
         with:
