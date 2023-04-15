@@ -23,4 +23,4 @@ jobs:
         with:
           folder: badges
           target-folder: badges
-
+          branches: main

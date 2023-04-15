@@ -21,9 +21,14 @@
     "start": "ts-node src/index.ts",
     "test": "jest",
     "test:cov": "jest --coverage",
-    "format": "prettier --write 'src/**/*.ts' README.md"
+    "format": "prettier --write 'src/**/*.ts' *.md *.json"
   },
-  "keywords": ["csv", "csv-parser", "simple-csv-parser", "marshal"],
+  "keywords": [
+    "csv",
+    "csv-parser",
+    "simple-csv-parser",
+    "marshal"
+  ],
   "devDependencies": {
     "@types/jest": "^29.5.0",
     "@types/node": "^18.15.11",

@@ -9,6 +9,7 @@ for javascript / typescript.
 marshal/serialize csv string to Object.
 
 ## Usage
+
 No need other dependency. super simple usage.
 
 ```typescript
@@ -21,7 +22,9 @@ class Message {
   }
 }
 
-const messages:Message[] = CsvParser.toObject<Message>(`name,message\r\nnolleh,"hello, world"`);
+const messages: Message[] = CsvParser.toObject<Message>(
+  `name,message\r\nnolleh,"hello, world"`
+);
 
 // do something with messages...
 ```
