@@ -27,13 +27,13 @@ const messages: Message[] = CsvParser.toObject<Message>(
 );
 
 // do something with messages...
-    const messages = CsvParser.toObject<Message>(
-      `name,message\r\nnolleh,"hello, world"\nnolleh,hello2`
-    );
-  console.log({messages});
+const messages = CsvParser.toObject<Message>(
+  `name,message\r\nnolleh,"hello, world"\nnolleh,hello2`
+);
+console.log({ messages });
 ```
 
-result is 
+result is
 
 ```bash
 {
