@@ -14,10 +14,14 @@ jobs:
           pnpm i --no-frozen-lockfile
       - name: Test and Cov
         run: pnpm test:cov
+  badge:
+    runs-on: ubuntu-latest
+    steps:
       - name: generate badge
         uses: jpb06/jest-badges-action@latest
         with:
           branches: main
+          no-commit: true
       - name: publish cov report to github pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
