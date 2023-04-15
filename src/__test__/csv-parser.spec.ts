@@ -155,7 +155,7 @@ describe("csv-parser", () => {
         Object.assign(this, payload);
       }
     }
-    
+
     const cmxmsg = "escape back slash,single quote";
     const messages = CsvParser.toObject<Message>(
       `name,message,remark\r\nnolleh, '${cmxmsg}', 'with,comma'`
@@ -165,5 +165,4 @@ describe("csv-parser", () => {
     expect(messages[0].message).toBe(cmxmsg);
     expect(messages[0].remark).toBe("with,comma");
   });
-
 });
