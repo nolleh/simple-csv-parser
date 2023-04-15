@@ -1,8 +1,8 @@
-import { CsvLoader } from '.';
+import { CsvParser } from '.';
 
 describe('csv-loader', () => {
   
   it('should export csv-loader', () => {
-    expect(CsvLoader).toBeDefined();
+    expect(CsvParser).toBeDefined();
   });
 });

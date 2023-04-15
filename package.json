@@ -1,5 +1,5 @@
 {
-  "name": "csv-loader",
+  "name": "simple-csv-parser",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
