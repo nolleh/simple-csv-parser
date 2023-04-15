@@ -17,10 +17,10 @@ jobs:
       - name: generate badge
         uses: jpb06/jest-badges-action@latest
         with:
-          branches: main, gh-pages
+          branches: main,gh-pages
       - name: publish cov report to github pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: badges
           target-folder: badges
-          branches: main, gh-pages
+          branches: main,gh-pages
