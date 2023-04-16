@@ -15,4 +15,4 @@ jobs:
       - name: Test and Cov
         run: pnpm test:cov
       - name: generate badge and pub 2 github pages
-        uses: nolleh/jest-badge-deploy-action@v1.0.1
+        uses: nolleh/jest-badge-deploy-action@v1.0.2
